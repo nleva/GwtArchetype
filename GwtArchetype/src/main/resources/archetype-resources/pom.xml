@@ -54,7 +54,7 @@
 					<draftCompile>true</draftCompile>
 					<webappDirectory>${project.build.directory}/${project.build.finalName}/META-INF/resources</webappDirectory>
 					<modules>
-						<module>${p</module>
+						<module>${package}.${module}</module>
 					</modules>
 					<deploy>${project.build.directory}/gwt-deploy</deploy> 
 				</configuration>

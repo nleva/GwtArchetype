@@ -64,4 +64,9 @@
       </includes>
     </fileSet>
   </fileSets>
+  <requiredProperties>
+  	<requiredProperty key="module">
+  		<defaultValue>Main</defaultValue>
+  	</requiredProperty>
+  </requiredProperties>
 </archetype-descriptor>
