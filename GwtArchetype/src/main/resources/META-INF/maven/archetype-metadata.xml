@@ -9,6 +9,7 @@
 			<directory>src/main/java</directory>
 			<includes>
 				<include>**/*.java</include>
+				<include>**/*.xml</include>
 			</includes>
 		</fileSet>
 		<fileSet filtered="true" encoding="UTF-8">
@@ -28,8 +29,8 @@
 		</fileSet>
 	</fileSets>
 	<requiredProperties>
-		<requiredProperty key="module">
-			<defaultValue>Main</defaultValue>
+		<requiredProperty key="webModuleName">
+			<defaultValue>WebApp</defaultValue>
 		</requiredProperty>
 	</requiredProperties>
 </archetype-descriptor>
